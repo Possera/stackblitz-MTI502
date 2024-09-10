@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MTI502</title>
+</head>
+<body>
+<center>
+ <h1>Formulário de Cadastro MTI502</h1>
+<h2>Prencha os campos abaixo:</h2>
+<h3>Atenção ao preencher</h3>
+<p>O uso de <b>formulário HTML (ou HTML form)</b> </b > é muito frequente na web, é um dos principais pontos de interação entre usuários e uma aplicação web. <br> Geralmente, eles funcionam enviando os dados para um servidor, porém também podem ser utilizados para alguma função na própria página.</p>
+ <form action="/submit" method="POST">
+           	<div>
+           	<label for="nome">Digite seu nome:</label>
+    	<br>
+    	<input type="text" id="nome" name="nome"
+    	required>
+    	</div>
+<!--este codigo cria o nome para identificar o usuário-->
+           	<div>
+           	<label for="email">Informe seu e-mail:</label>
+    	<br>
+    	<input type="email" id="email" email="email" required>
+    	</div>
+           	<!--usa-se o código para entrar em contato com o usuário-->
+    <div>
+           	<label for="senha">Digite sua senha:</label>
+    	<br>
+    	<input type="password" id="senha" name="senha" required>
+    	</div>
+    <br>
+   	    	<input type="submit" value="Concluir Cadastro">
+  </form>
+ 
+</center>
+</body>
+</html>
